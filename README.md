@@ -42,7 +42,7 @@ Once completed, the temporary file is renamed to the final destination.
 Ideal for:
 
 - Large file transfers  
-- Unstable environments (USB removal risk, interruptions)  
+- Unstable environments (external interruptions)  
 - Users needing resume capability without third-party tools  
 
 ---
@@ -51,4 +51,4 @@ Ideal for:
 
 - Uses `.ksync` temporary files during transfer  
 - Fully local tool (no internet dependency)  
-- Designed for Windows environments
+- Designed for Windows environments (Tested on Windows Primarily)
