@@ -8,13 +8,15 @@ It is designed for reliable, interrupt-safe copying of files and folders with re
 ## Features
 
 - Resumable transfers using `.ksync` temporary files  
+- Drag and drop support for files and folders  
 - Session-based speed calculation for stable performance metrics  
 - ETA estimation based on current session performance  
 - Automatic disk space checking before and during transfer  
-- Supports single files and entire folders  
+- Supports single files, multiple files, and entire folders  
 - Overwrite or resume detection for existing files  
 - Multi-threaded transfer (GUI remains responsive)  
 - Live transfer logs stored locally  
+- Automatic file append support for multi-item selection  
 - Clean and simple Tkinter interface  
 
 ---
@@ -25,6 +27,8 @@ KSync copies data in chunks and writes them to a `.ksync` temporary file first.
 If the transfer is interrupted, it resumes from the last successfully written chunk instead of restarting.
 
 Once completed, the temporary file is renamed to the final destination.
+
+The application also supports drag-and-drop file selection and appending multiple files/folders into a single transfer session.
 
 ---
 
@@ -44,6 +48,7 @@ Ideal for:
 - Large file transfers  
 - Unstable environments (external interruptions)  
 - Users needing resume capability without third-party tools  
+- Multi-file transfer workflows using drag and drop  
 
 ---
 
