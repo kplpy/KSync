@@ -107,5 +107,5 @@ Ideal for:
 ## Build Command (PyInstaller)
 
 ```bash
-pyinstaller --onefile --windowed --icon=ico/KSync.ico --add-data "ico;ico" --collect-all tkinterdnd2 main.py
+pyinstaller --onefile --windowed --icon=ico/KSync.ico --add-data "ico;ico" --collect-all tkinterdnd2 transfer.py
 ```
